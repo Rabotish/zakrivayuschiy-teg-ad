@@ -1,0 +1,28 @@
+{
+  "name": "ono-tebe-nado-ad",
+  "version": "1.0.0",
+  "description": "https://github.com/Rabotish/ono-tebe-nado-ad",
+  "homepage": "https://github.com/Rabotish/ono-tebe-nado-ad#readme",
+  "bugs": {
+    "url": "https://github.com/Rabotish/ono-tebe-nado-ad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabotish/ono-tebe-nado-ad.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Hello!",
+    "check": "npx prettier --check './**/*.{html,css,js}'",
+    "formay": "npx prettier --write './**/*.{html,css,js}'",
+    "lint": "npx stylelint '**/*.css'",
+    "lintfix": "npx stylelint '**/*.css' --fix"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1",
+    "stylelint": "^17.3.0"
+  }
+}
